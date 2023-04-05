@@ -1,7 +1,7 @@
 import os
 def uninstall_and_install():
   os.system("pip uninstall discord -y && pip uninstall discord.py -y && pip uninstall discord.py-self -y && pip install -r requirements.txt")
-#uninstall_and_install()
+uninstall_and_install()
 import discord
 from discord.ext import commands
 import sys
